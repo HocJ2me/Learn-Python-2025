@@ -1,4 +1,4 @@
-# Bài 4: Xây Dựng Giao Diện Web Hiện Đại Với Lưới 2 Cột (2xn)
+![image](https://github.com/user-attachments/assets/c276d5a6-14e5-4d20-ab16-db816edf8760)# Bài 4: Xây Dựng Giao Diện Web Hiện Đại Với Lưới 2 Cột (2xn)
 
 ## Mục tiêu
 - Thiết kế giao diện web hiện đại dùng Bootstrap.
@@ -56,8 +56,8 @@
             <div class="control-section mb-3">
               <h5>Đèn</h5>
               <div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
-                <a href="{{ url_for('light_on') }}" class="btn btn-success flex-fill">Bật đèn</a>
-                <a href="{{ url_for('light_off') }}" class="btn btn-danger flex-fill">Tắt đèn</a>
+                <a href="#" class="btn btn-success flex-fill">Bật đèn</a>
+                <a href="#" class="btn btn-danger flex-fill">Tắt đèn</a>
               </div>
             </div>
             <hr>
@@ -65,8 +65,8 @@
             <div class="control-section">
               <h5>Còi</h5>
               <div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
-                <a href="{{ url_for('horn_on') }}" class="btn btn-success flex-fill">Bật còi</a>
-                <a href="{{ url_for('horn_off') }}" class="btn btn-danger flex-fill">Tắt còi</a>
+                <a href="#" class="btn btn-success flex-fill">Bật còi</a>
+                <a href="#" class="btn btn-danger flex-fill">Tắt còi</a>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ body {
 .video-card img {
   width: 100%;
   height: auto;
-  max-height: 200px;
+  max-height: 600px;
   object-fit: cover;
 }
 .video-card .card-body {
